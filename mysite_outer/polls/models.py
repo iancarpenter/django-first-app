@@ -1,6 +1,6 @@
 from datetime import datetime, timedelta
-from django.db import models # type: ignore 
-from django.utils import timezone # type: ignore
+from django.db import models  
+from django.utils import timezone 
 
 class Question(models.Model):
     question_text = models.CharField(max_length=200)
